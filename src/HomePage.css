@@ -1,0 +1,41 @@
+/* HomePage.css */
+.homepage-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.class-container {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.class-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.exam-list {
+  list-style: none;
+  padding: 0;
+}
+
+.exam-list li {
+  margin-bottom: 5px;
+}
+
+.exam-button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.exam-button:hover {
+  background-color: #2980b9;
+}

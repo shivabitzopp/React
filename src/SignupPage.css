@@ -1,0 +1,23 @@
+.centered-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust as needed to center vertically within the viewport */
+  padding: 20px; /* Add padding to the form container */
+}
+
+/* Add margin and padding to input elements */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  margin-bottom: 10px; /* Add space between input fields */
+  padding: 10px; /* Add padding inside the input fields */
+  width: 250px; /* Set a specific width for the input fields */
+}
+
+/* Style the button */
+button[type="submit"] {
+  padding: 10px 20px; /* Add padding to the button */
+  width: 250px; /* Set a specific width for the button */
+}

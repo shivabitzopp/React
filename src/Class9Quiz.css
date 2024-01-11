@@ -1,0 +1,135 @@
+/* Class9Quiz.css
+
+.question {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.options {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.option {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn-secondary {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #5bc0de;
+  color: #fff;
+}
+.drop-area {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.drop-text {
+  font-size: 18px;
+  color: #888;
+} */
+/* Class9Quiz.css */
+.container {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.drop-area {
+  border: 2px dashed #aaa;
+  background-color: #eee;
+  color: #555;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.drop-text {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 16px;
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #777;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+li img {
+  height: 100px; /* Set the desired height */
+  width: 100px; /* Set the desired width */
+  /* Add any additional styling if needed */
+}
+/* Class9Quiz.css */
+
+/* Style for the container displaying the dragged image */
+.dragged-image-container {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style for the dragged image */
+.dragged-image {
+  max-width: 200px; /* Adjust as needed */
+  max-height: 200px; /* Adjust as needed */
+}
+.dropped-image {
+  max-width: 100px; /* Set the maximum width for the dropped images */
+  max-height: 100px; /* Set the maximum height for the dropped images */
+  /* You can adjust these values to fit your desired size */
+}

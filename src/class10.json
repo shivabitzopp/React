@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "question": " x2-2x+1 is a polynomial in:",
+    "options": ["One variable","two variable","three variable","none of the"],
+    "correctAnswer": "One variable"
+  },
+  {
+    "id": 2,
+    "question": "The coefficient of x2 in 3x3+2x2-x+1 is:",
+    "options": ["1","2","3","-1"],
+    "correctAnswer": "2"
+  },
+  {
+    "id": 3,
+    "question": "A binomial of degree 20 in the following is:",
+    "options": ["20x + 1"," x/20 + 1","x20 +1","x2+20"],
+    "correctAnswer": "x2+20"
+  },
+  {
+    "id": 4,
+    "question": "The degree of 4x3-12x2+3x+9 is",
+    "options": ["0","1","2","3"],
+    "correctAnswer": "3"
+  },
+  {
+    "id": 5,
+    "question": "x2 – x is ________ polynomial",
+    "options": ["Linear","Quadratic","Cubic","None of the above"],
+    "correctAnswer": "Quadratic"
+  }
+  
+]

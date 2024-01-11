@@ -1,0 +1,61 @@
+/* Class10Quiz.css */
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; /* Background color for the page */
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif; /* Choose your desired font-family */
+}
+
+.question-box {
+  background-color: #fff; /* Background color for the question box */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.question-text {
+  color: #333; /* Text color for the question */
+  font-size: 18px; /* Font size for the question text */
+  font-weight: bold; /* Font weight for the question text */
+}
+
+.options-list {
+  list-style: none;
+  padding: 0;
+}
+
+.option-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px; /* Font size for the options */
+  color: #555; /* Text color for the options */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.next-button,
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button {
+  background-color: #28a745; /* Change submit button color if needed */
+}
+
+.next-button:hover,
+.submit-button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
